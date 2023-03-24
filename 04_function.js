@@ -1,9 +1,9 @@
-console.log("function with no arg and no return");
+console.log("**function with no arg and no return**");
 function myName(){
     console.log("My name is yogita Dudhani");
 }
 myName();
-console.log("function with arg and no return");
+console.log("**function with arg and no return**");
 function personalDetails(firstName,lastName,collegeName){
     console.log(firstName,lastName,collegeName);
 }
@@ -18,7 +18,7 @@ function swap(n1,n2){
 }
 swap('virat','Anushka');
 swap(1000,2000);
-console.log("function with arg and return value");
+console.log("**function with arg and return value**");
 function addThreeValues(n1,n2,n3){
     var sum=n1+n2+n3;
     return sum;
