@@ -47,3 +47,23 @@ monthOfYear(5);
 monthOfYear(12);
 monthOfYear(15);
 monthOfYear(100);
+console.log("**leap year**");
+function leap(year) {
+    if(typeof year!="number"){
+        console.log("provide valid year");
+    }
+    if(year%4==0){
+        console.log(`its a leap year ${year}`);
+    }
+    else{
+        console.log(`not leap year${year}`);
+    }
+}
+leap(2020);
+leap(1999);
+leap(1600);
+leap(2022);
+leap(1995);
+leap(1750);
+leap(null);
+leap("twenty twenty");
